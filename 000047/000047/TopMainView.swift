@@ -16,13 +16,14 @@ protocol TopMainViewDelegate: NSObjectProtocol{
 
 extension TopMainViewDelegate {
     
+      
 }
 // MARK: - Property
 class TopMainView: BaseView {
     weak var delegate: TopMainViewDelegate? = nil
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var collectionFlowLayout: UICollectionViewFlowLayout!
-    var labels: [String] = ["aaaaaaaaaaああああああああああああああああ","ああああああああいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい","uuuuuuuuuuuuuuuuuうううううううううううううううううう","えええええええええええええええええええええええええええええええええええええええええええええええええええええええ","おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお","おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお","っっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっp","いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい",]
+    var labels: [String] = ["aaaaaaaaaaああああああああああああああああ","あああああuuuあああいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい","uuuuuuuuuuuuuuuuuうううううううううううううううううう","えええええええええええええええええええええええええええええええええええええええええええええええええええええええ","おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお","おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお","っっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっっp","いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい",]
 }
 
 // MARK: - Life cycle
